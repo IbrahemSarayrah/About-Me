@@ -1,0 +1,30 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(126, 29, 33);
+    margin: 25px;
+    }
+    body header nav ul {   
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+    body header nav ul li {
+        display: inline;
+        margin: 15px;
+    }
+    body header nav ul li a {
+        font-size: 35px;
+        text-decoration: none;
+    }
+
+    body {
+        background-color: rgb(192, 159, 117);
+    }
+
+    p {
+        color: darkblue;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+}
