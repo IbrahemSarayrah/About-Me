@@ -19,12 +19,28 @@ h1 {
     }
 
     body {
-        background-color: rgb(192, 159, 117);
+        background-color: rgb(160, 135, 103);
     }
 
-    p {
+    ul {
         color: darkblue;
-        font-size: 20px;
-        text-align: center;
+        font-size: 25px;
         font-weight: bold;
+        margin: 40px;
+        list-style: circle;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 50px;
+}
+
+ol li {
+    font-size: 25px;
+    color: darkred;
+}
+
+#movie {
+    font-size: 30px;
+    margin: 10px;
 }
