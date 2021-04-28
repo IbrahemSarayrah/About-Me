@@ -124,3 +124,35 @@ for ( let i = 1 ; i < 4 ; i++ ) {
     break;
   }
 }
+
+if (counter === 4){
+  alert('you have your chance to guess the answer ! my age is 29');
+}
+ }
+getquestion6();
+function getquestion7(){
+let favM = ['interstellar','arrival', 'black Panther','avengers']
+let qNumber7 =prompt('waht is my fav-movie ?',' hints interstellar - arrival - black Panther - avengers ')
+qNumber7=qNumber7.toLocaleLowerCase()
+let count = 1;
+for (let i=1; i < 6 ; i++) {
+  if (qNumber7===favM[0] || qNumber7===favM[1] || qNumber7===favM[2] || qNumber7===favM[3]){
+    alert('thats correct');
+    score++;
+    break;
+  }else {
+    alert ('No Try Again');
+    qNumber7 =prompt('Guess Again');
+    count++;
+  }
+}
+if (count === 6) {
+  alert('you run out of attempts and my fav-movies are interstellar - arrival - black Panther - avengers');
+}
+console.log (score);
+}
+getquestion7();
+alert('thanks ' + ' for answering all the question and your score is '+ score );
+
+
+
