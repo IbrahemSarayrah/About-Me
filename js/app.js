@@ -7,13 +7,6 @@ console.log(userName);
 alert('Welcome ' + userName + ' to my website');
 
 
-
- let userName=prompt('Please Enter Your Name');
- console.log(userName);
- alert('Welcome ' + userName + ' to my website');
-
-
-
 confirm(userName +' let\'s see if you can answer the following question with yes or no about me')
 }
 getusername()
@@ -163,6 +156,3 @@ console.log (score);
 }
 getquestion7();
 alert('thanks ' + ' for answering all the question and your score is '+ score );
-
-
-
