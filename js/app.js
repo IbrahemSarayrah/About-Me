@@ -1,12 +1,12 @@
 'use strict';
 let score=0;
-let userName = uName
-function uN (){
- let uName=prompt('Please Enter Your Name');
- console.log(uName);
- alert('Welcome ' + uName + ' to my website');
-}
-uN();
+
+
+ let userName=prompt('Please Enter Your Name');
+ console.log(userName);
+ alert('Welcome ' + userName + ' to my website');
+
+
 confirm(userName +' let\'s see if you can answer the following question with yes or no about me')
 
 let qNumber1=prompt('Did we meet Before ?')
