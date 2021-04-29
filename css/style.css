@@ -3,11 +3,13 @@ h1 {
     text-align: center;
     color: rgb(126, 29, 33);
     margin: 25px;
+    font-family: 'Montserrat', sans-serif;
     }
     body header nav ul {   
         padding: 20px;
         margin: 20px;
         text-align: center;
+        font-family: 'Montserrat', sans-serif;
     }
     body header nav ul li {
         display: inline;
@@ -28,11 +30,13 @@ h1 {
         font-weight: bold;
         margin: 40px;
         list-style: circle;
+        font-family: 'Montserrat', sans-serif;
 }
 
 ol {
     list-style-type: decimal;
     margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ol li {
@@ -43,4 +47,22 @@ ol li {
 #movie {
     font-size: 30px;
     margin: 10px;
+}
+img {
+    width: 400px;
+    height: 150px;
+    margin: 30;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#git {
+    font-size: 30px;
+    list-style: none;
+    text-align: center;
+}
+#git a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }

@@ -1,11 +1,9 @@
 'use strict';
 let score=0;
 
-function getusername(){
 let userName=prompt('Please Enter Your Name');
-console.log(userName);
+function getusername(){
 alert('Welcome ' + userName + ' to my website');
-
 
 confirm(userName +' let\'s see if you can answer the following question with yes or no about me')
 }
@@ -16,12 +14,10 @@ let qNumber1=prompt('Did we meet Before ?')
 switch (qNumber1.toUpperCase()) {
 case 'YES' :
 case 'Y' :
-//console.log('the answer ' + qNumber1 + ' is'+ ' not correct' );
   alert ('that\'s not correct we never meet');
   break;
 case 'NO' :
 case 'N' :
-//console.log('the answer ' + qNumber1 + ' is'+ ' correct' );
   alert ('that\s correct we never meet');
   score++;
   break;
@@ -36,13 +32,11 @@ let qNumber2=prompt('Do you think im a skilled driver ?');
 switch (qNumber2.toUpperCase()) {
 case 'YES' :
 case 'Y' :
-//console.log('the answer ' + qNumber2 + ' is'+ ' correct' );
   alert ('yes i\'m a skilled driver thank you');
   score++;
   break;
 case 'NO' :
 case 'N' :
-//console.log('the answer ' + qNumber2 + ' is'+ ' not correct' );
   alert ('that\s Not correct');
   break;
 default:
@@ -56,13 +50,11 @@ let qNumber3=prompt('Do you think that i\'m a graphic disginer ?');
 switch (qNumber3.toUpperCase()) {
 case 'YES' :
 case 'Y' :
-//console.log('the answer ' + qNumber3 + ' is'+ ' correct' );
   alert ('yes i\'m ');
   score++;
   break;
 case 'NO' :
 case 'N' :
-//console.log('the answer ' + qNumber3 + ' is'+ ' not correct' );
   alert ('that\s Not correct i\'m a graphic designer');
   break;
 default:
@@ -76,13 +68,11 @@ let qNumber4=prompt('Do you think that i like to drink coffee ?');
 switch (qNumber4.toUpperCase()) {
 case 'YES' :
 case 'Y' :
-//console.log('the answer ' + qNumber4 + ' is'+ ' correct' );
   alert ('yes i\'m ');
   score++;
   break;
 case 'NO' :
 case 'N' :
-//console.log('the answer ' + qNumber4 + ' is'+ ' not correct' );
   alert ('that\s Not correct');
   break;
 default:
@@ -96,13 +86,11 @@ let qNumber5=prompt('do you think that i\'m still in my twenty ?');
 switch (qNumber5.toUpperCase()) {
 case 'YES' :
 case 'Y' :
-//console.log('the answer ' + qNumber5 + ' is'+ ' correct' );
   alert ('yes that\'s correct');
   score++;
   break;
 case 'NO' :
 case 'N' :
-//console.log('the answer ' + qNumber5 + ' is'+ ' not correct' );
   alert ('that\s Not correct');
   break;
 default:
@@ -112,7 +100,6 @@ default:
  getquestion5();
  function getquestion6(){
 let qNumber6=parseInt(prompt('can u guess my age ?', 'you can try 4 times to guess my age'));
-console.log(qNumber6);
 let counter = 1;
 for ( let i = 1 ; i < 4 ; i++ ) {
   if (qNumber6 > 29){
@@ -152,7 +139,6 @@ for (let i=1; i < 6 ; i++) {
 if (count === 6) {
   alert('you run out of attempts and my fav-movies are interstellar - arrival - black Panther - avengers');
 }
-console.log (score);
 }
 getquestion7();
-alert('thanks ' + ' for answering all the question and your score is '+ score );
+alert('thanks '+ userName + ' for answering all the question and your score is '+ score );
